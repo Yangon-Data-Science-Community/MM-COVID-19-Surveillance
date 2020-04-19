@@ -1,0 +1,120 @@
+,SR,Township,Hospital,HosPt,PUI,Suspected,M,F,Child,Adult,Lab_Neg,Confirmed,Pending,DC,Latitude,Longitude,__OBJECTID
+0,Yangon Region,North Okkalapa,Way Bar Gi Specialist Hospital,72,72,0,49,23,0,72,64,2,6,36,16.920552,96.156532,0
+1,Kayah State,Loikaw,Loikaw General Hospital,14,14,0,10,4,0,14,13,0,1,3,19.67999,97.21988,1
+2,Shan (East) State,Kengtung,Kengtung General Hospital,3,3,0,1,2,1,2,3,0,0,2,21.260127,99.615922,2
+3,Nay Pyi Taw,Za Bu Thi Ri,Nay Pyi Taw General Hospital,5,5,0,4,1,0,5,4,1,0,3,19.742783,96.100826,3
+4,Shan (South) State,Taunggyi,Saosanhtun General Hospital,6,6,0,5,1,0,6,6,0,0,1,20.80435,97.03738,4
+5,Yangon Region,Yankin,Yankin Children Specialist Hospital,3,3,0,3,0,3,0,3,0,0,1,16.83497,96.1595,5
+6,Rakhine State,Minbya,Minbya Township Hospital,1,0,1,1,0,0,1,1,0,0,1,20.35608,93.270246,6
+7,Shan (North) State,Namtu,Namtu Township Hospital,1,0,1,1,0,0,1,1,0,0,1,23.08753,97.39328,7
+8,Ayeyarwaddy Region,Labutta,Labutta General Hospital,3,3,0,2,1,0,3,2,0,1,2,16.147486,94.75621,8
+9,Bago Region,Thegon,Pu Tee Kone Station Hospital,1,1,0,0,1,0,1,1,0,0,1,18.565774,95.456853,9
+10,Rakhine State,Ponnagyun,Ponnagyun Township Hospital,1,1,0,0,1,0,1,1,0,0,1,20.328193,93.001771,10
+11,Magway Region,Mgaway,Magway General Hospital,9,9,0,5,4,3,6,9,0,0,5,20.147171,94.928205,11
+12,Magway Region,Pauk,Pauk Township Hospital,3,3,0,1,2,0,3,3,0,0,1,21.44795,94.478134,12
+13,Mandalay Region,Mandalay,Mandalay General Hospital,21,21,0,12,9,0,21,19,0,2,4,21.977446,96.090378,13
+14,Rakhine State,Maungdaw,Maungdaw Township Hospital,1,1,0,1,0,0,1,1,0,0,1,20.820303,92.368092,14
+15,Shan (South) State,Mawkmai,Mawkmai Township Hospital,4,4,0,1,3,0,4,4,0,0,4,20.229186,97.724691,15
+16,Shan (East) State,Mongkhet,Mongkhet Township Hospital,1,1,0,1,0,0,1,1,0,0,1,21.74726,99.45644,16
+17,Mandalay Region,Mogoke,Mogoke Township Hospital,1,1,0,0,1,0,1,1,0,0,1,22.918545,96.497179,17
+18,Mandalay Region,Taungtha,Taungtha Township Hospital,2,2,0,1,1,0,2,2,0,0,1,21.268168,95.449308,18
+19,Shan (North) State,Lashio,Lashio General Hospital,10,10,0,3,7,0,10,9,0,1,5,22.936028,97.747065,19
+20,Mandalay Region,Myittha,Myittha Township Hospital,2,2,0,2,0,0,2,2,0,0,2,21.4225341,96.1291029,20
+21,Shan (North) State,Muse,Muse General Hospital,8,8,0,7,1,1,7,8,0,0,4,23.993365,97.899894,21
+22,Rakhine State,Sittwe,Sittwe General Hospital,3,3,0,3,0,0,3,3,0,0,1,20.137564,92.898732,22
+23,Mandalay Region,Mandalay,Kandawnadi Hospital,26,26,0,19,7,0,26,25,1,0,9,21.9456,96.112281,23
+24,Kachin State,Waingmaw,Kan Paik Ti Station Hospital,1,1,0,1,0,0,1,1,0,0,1,25.405053,98.118834,24
+25,Yangon Region,Latha,Yangon General Hospital,15,15,0,12,3,0,15,13,2,0,3,16.779141,96.148983,25
+26,Yangon Region,Insein,Insein General Hospital,28,28,0,17,11,0,28,27,1,0,5,16.89162,96.10544,26
+27,Magway Region,Minhla,Lin Kei Station Hospital,1,1,0,1,0,0,1,1,0,0,0,19.687554,94.933723,27
+28,Bago Region,Yedashe,Yedashe Township Hospital,1,1,0,1,0,0,1,1,0,0,1,19.15203,96.34773,28
+29,Kayin State,Hpa-An,Hpa-An General Hospital,7,7,0,6,1,0,7,7,0,0,1,16.882529,97.635994,29
+30,Bago Region,Kyauktaga,Kyauktaga Township Hospital,5,5,0,3,2,0,5,5,0,0,0,18.159827,96.609923,30
+31,Magway Region,Pakokku,Pakokku General Hospital,1,1,0,1,0,0,1,1,0,0,1,21.33498,95.088245,31
+32,Shan (South) State,Pindaya,Pindaya Township Hospital,1,1,0,1,0,0,1,1,0,0,1,20.935481,96.667157,32
+33,Magway Region,Kamma,Kyoet Pin Station Hospital,1,1,0,0,1,0,1,1,0,0,1,19.0306,94.90206,33
+34,Mandalay Region,Chanmyathazi,(300) Bedded Teaching Hospital,1,1,0,0,1,0,1,1,0,0,1,21.94746,96.11128,34
+35,Yangon Region,Kayan,Kayan Township Hospital,3,3,0,3,0,0,3,3,0,0,1,16.903528,96.55861,35
+36,Bago Region,Taungoo,Taungoo General Hospital,1,1,0,0,1,0,1,1,0,0,1,18.937459,96.443386,36
+37,Ayeyarwaddy Region,Pathein,Pathein General Hospital,3,3,0,2,1,0,3,3,0,0,0,16.783314,94.735278,37
+38,Yangon Region,North Okkalapa,North Okkalapa Teaching and General Hospital,11,11,0,10,1,0,11,8,0,3,0,16.900792,96.158063,38
+39,Yangon Region,Thingyangyun,Thingyangyun General Hospital,3,3,0,1,2,0,3,3,0,0,1,16.83438,96.190538,39
+40,Sagaing Region,Tigyaing,Tigyaing Township Hospital,2,2,0,1,1,0,2,2,0,0,0,23.75434,96.150157,40
+41,Bago Region,Htantapin,Htantapin Township Hospital,1,1,0,0,1,0,1,1,0,0,1,18.841751,96.486,41
+42,Yangon Region,Dagon Myothit (East),Dagon Myothit (East) Township Hospital,1,1,0,1,0,0,1,1,0,0,1,16.91783,96.23178,42
+43,Rakhine State,Kyaukpyu,Kyaukpyu General Hospital,4,4,0,3,1,0,4,4,0,0,1,19.431771,93.547029,43
+44,Magway Region,Minbu,Minbu General Hospital,1,1,0,1,0,0,1,1,0,0,1,20.174373,94.875591,44
+45,Yangon Region,Hlegu,Hlegu Township Hospital,2,2,0,1,1,0,2,1,0,1,1,17.0999,96.225193,45
+46,Nay Pyi Taw,Pyinmana,Pyinmana General Hospital,3,3,0,2,1,0,3,3,0,0,0,19.735415,96.199629,46
+47,Mandalay Region,Pyinoolwin,Pyinoolwin General Hospital,1,1,0,1,0,0,1,1,0,0,0,22.022368,96.465662,47
+48,Shan (East) State,Tachileik,Tachileik General Hospital,18,18,0,15,3,0,18,17,0,1,0,20.459836,99.884021,48
+49,Bago Region,Bago,Bago General Hospital,1,1,0,1,0,0,1,1,0,0,0,17.33744,96.48454,49
+50,Shan (North) State,Hsipaw,Hsipaw Township Hospital,3,3,0,2,1,0,3,2,0,1,0,22.614095,97.300527,50
+51,Shan (East) State,Mongyawng,Mongyawng Township Hospital,1,1,0,1,0,0,1,1,0,0,0,21.182407,100.361837,51
+52,Kayin State,Hpapun,Kamarmaung Station Hospital,1,1,0,1,0,0,1,1,0,0,1,17.34271,97.65344,52
+53,Bago Region,Monyo,Monyo Township Hospital,3,3,0,3,0,0,3,2,0,1,1,18.02948,95.50652,53
+54,Magway Region,Aunglan,Aunglan Township Hospital,2,2,0,1,1,0,2,2,0,0,1,19.35139,95.21609,54
+55,Ayeyarwaddy Region,Dedaye,Dedaye Township Hospital,1,1,0,1,0,0,1,1,0,0,0,16.41156,95.88803,55
+56,Mon State,Thanbyuzayat,Thanbyuzayat Township Hospital,1,1,0,1,0,0,1,1,0,0,0,15.960517,97.728952,56
+57,Shan (South) State,Kyethi,Mong Nawng Hospital,1,1,0,0,1,0,1,1,0,0,0,21.643294,98.117856,57
+58,Mandalay Region,Pyawbwe,Yan Aung Station Hospital,1,1,0,1,0,0,1,1,0,0,0,20.541172,95.96891,58
+59,Chin State,Tedim,Tedim Township Hospital,1,1,0,1,0,0,1,0,1,0,0,23.368904,93.650808,59
+60,Yangon Region,Kyauktan,Kyauktan Township Hospital,3,3,0,2,1,0,3,3,0,0,0,16.636801,96.326909,60
+61,Ayeyarwaddy Region,Pyapon,Pyapon General Hospital,1,1,0,0,1,0,1,1,0,0,1,16.283537,95.681554,61
+62,Kayin State,Hlaingbwe,Myainggyingu Hospital,1,1,0,1,0,0,1,1,0,0,0,17.358643999999998,97.669251,62
+63,Mandalay Region,Meiktila,Meiktila General Hospital,4,4,0,2,2,0,4,4,0,0,0,20.876624,95.844727,63
+64,Yangon Region,Lanmadaw,New Yangon General Hospital,1,1,0,0,1,0,1,1,0,0,0,16.781488,96.145242,64
+65,Kachin State,Myitkyina,Myitkyina General Hospital,3,3,0,2,1,0,3,1,0,2,0,25.394939,97.395323,65
+66,Mandalay Region,Chanayethazan,Children Specialist Hospital,1,1,0,0,1,0,1,1,0,0,0,21.979858,96.105216,66
+67,Kayin State,Myawaddy,Myawaddy General Hospital,2,2,0,2,0,0,2,2,0,0,0,16.685653,98.50555,67
+68,Sagaing Region,Kale,Kale General Hospital,4,4,0,1,3,0,4,2,0,2,0,23.190428,94.063697,68
+69,Sagaing Region,Tamu,Tamu General Hospital,1,1,0,1,0,0,1,1,0,0,0,24.218296,94.310364,69
+70,Tanintharyi Region,Myeik,Myeik General Hospital,2,2,0,2,0,0,2,1,0,1,0,12.463061,98.610958,70
+71,Nay Pyi Taw,Oke Ta Ra Thi Ri,Children Specialist Hospital,2,2,0,1,1,2,0,2,0,0,0,19.854063,96.153059,71
+72,Nay Pyi Taw,Poke Ba Thi Ri,(300) Bedded Hospital,1,1,0,1,0,0,1,1,0,0,0,19.902721,96.200128,72
+73,Yangon Region,Insein,Aung San Tuberculosis Hospital,1,1,0,0,1,0,1,1,0,0,0,16.916506,96.097686,73
+74,Shan (South) State,Hsihseng,Hsihseng Township Hospital,2,2,0,2,0,0,2,2,0,0,0,20.167422,97.254339,74
+75,Yangon Region,Htantabin,Htantabin Township Hospital,1,1,0,0,1,0,1,1,0,0,0,17.013647,95.987982,75
+76,Mon State,Mawlamyine,Mawlamyine General Hospital,1,1,0,1,0,0,1,0,0,1,0,16.480681,97.627087,76
+77,Bago Region,Kyaukkyi,Mone Station Hospital,2,2,0,2,0,0,2,2,0,0,0,18.53891,96.632248,77
+78,Shan (North) State,Nawnghkio,Nawnghkio Township Hospital,1,1,0,0,1,0,1,1,0,0,0,22.332404,96.791342,78
+79,Bago Region,Phyu,Phyu Township Hospital,4,4,0,2,2,0,4,2,0,2,0,18.480118,96.431668,79
+80,Yangon Region,Dagon Myothit (East),Psychiatric Hospital,1,1,0,1,0,0,1,1,0,0,0,16.962441,96.262819,80
+81,Bago Region,Pyay,Pyay General Hospital,1,1,0,1,0,0,1,1,0,0,0,18.822797,95.246573,81
+82,Bago Region,Nyaunglebin,Pyuntasa Station Hospital,3,3,0,2,1,0,3,2,0,1,0,17.866373,96.706812,82
+83,Mandalay Region,Yamethin,Thit Son Gyi Station Hospital,1,1,0,1,0,0,1,1,0,0,0,20.458122,95.866902,83
+84,Kachin State,Bhamo,Bhamo General Hospital,5,5,0,3,2,0,5,0,0,5,0,24.26363,97.23044,84
+85,Yangon Region,Hlaingtharyar,Hlaingtharyar General Hospital,1,1,0,1,0,0,1,0,0,1,0,16.875174,96.064131,85
+86,Bago Region,Kyauktaga,Hpa Do Station Hospital,4,4,0,3,1,0,4,4,0,0,0,18.03439,96.56165,86
+87,Magway Region,Tilin,Tilin Township Hospital,1,1,0,0,1,0,1,0,0,1,0,21.6919898,94.0955076,87
+88,Sagaing Region,Kani,Kani Township Hospital,1,1,0,1,0,0,1,0,0,1,0,22.4345133,94.8475552,88
+89,Sagaing Region,Salingyi,Kyar Tet Station Hospital,1,1,0,1,0,0,1,1,0,0,0,21.84678,94.93815,89
+90,Bago Region,Minhla,Minhla Township Hospital,1,1,0,1,0,0,1,1,0,0,0,17.97713,95.70412,90
+91,Mandalay Region,Myitthar,Maing Maw Station Hospital,1,1,0,1,0,0,1,1,0,0,0,21.3091,96.21203,91
+92,Ayeyarwaddy Region,Myaungmya,Myaungmya General Hospital,2,2,0,2,0,0,2,2,0,0,0,16.6024565,94.9283201,92
+93,Bago Region,Kyauktaga,Myo Chaung Station Hospital,2,2,0,2,0,0,2,1,0,1,0,18.07911,96.46584,93
+94,Mandalay Region,Nyaung-U,Nyaung-U General Hospital,1,1,0,1,0,0,1,1,0,0,0,21.1839683,94.9114729,94
+95,Shan (South) State,Loilen,Pinlon Hospital,1,1,0,1,0,0,1,1,0,0,0,20.9950199,97.5315371,95
+96,Ayeyarwaddy Region,Ngapudaw,Pyin Kha Yaing Station Hospital,1,1,0,1,0,0,1,1,0,0,0,15.9810759,94.4000793,96
+97,Bago Region,Thegon,Thegon Township Hospital,1,1,0,1,0,0,1,1,0,0,0,18.64403,95.41725,97
+98,Yangon Region,Thanlyin,Thanlyin General Hospital,2,2,0,1,1,0,2,0,0,2,0,16.75965,96.25311,98
+99,Shan (South) State,Taunggyi,Women & Children Hospital,1,1,0,1,0,0,1,1,0,0,0,20.7764444,97.0390527,99
+100,Bago Region,Kyauktaga,Aung Myin Station Hospital,1,1,0,1,0,0,1,0,0,1,0,18.13183,96.49503,100
+101,Sagaing Region,Ayadaw,Ayadaw Township Hospital,1,1,0,1,0,0,1,1,0,0,0,22.283435,95.447305,101
+102,Shan (North) State,Laukkaing,Chinshwehaw Station Hospital,2,2,0,2,0,0,2,2,0,0,0,23.475182,98.820594,102
+103,Kayah State,Demoso,Demoso Township Hospital,4,4,0,4,0,0,4,4,0,0,0,19.546252,97.160759,103
+104,Bago Region,Kawa,Kawa Township Hospital,1,1,0,1,0,0,1,0,0,1,0,17.08808,96.45392,104
+105,Shan (North) State,Kunlong,Kunlong General Hospital,1,1,0,0,1,0,1,1,0,0,0,23.41534,98.64494,105
+106,Shan (South) State,Kyethi,Kyethi Township Hospital,1,1,0,0,1,0,1,0,0,1,0,21.927507,97.822597,106
+107,Mandalay Region,Myittha,Maing Maw Station Hospital,1,1,0,1,0,0,1,0,0,1,0,21.3091,96.212033,107
+108,Sagaing Region,Monywa,Monywa General Hospital,3,3,0,1,2,0,3,0,0,3,0,22.11999,95.13035,108
+109,Sagaing Region,Tabayin,Mu Kan Gyi Station Hospital,1,1,0,1,0,0,1,0,0,1,0,22.51302,95.485352,109
+110,Yangon Region,Mingaladon,Pale Myo Thit Hospital,2,2,0,2,0,0,2,0,0,2,0,16.989764,96.143254,110
+111,Sagaing Region,Shwebo,Shwebo General Hospital,1,1,0,1,0,0,1,1,0,0,0,22.564106,95.700697,111
+112,Bago Region,Minhla,Sit Kwin Station Hospital,1,1,0,1,0,0,1,0,0,1,0,17.890469,95.719843,112
+113,Nay Pyi Taw,Tatkon,Tatkon Township Hospital,1,1,0,1,0,0,1,0,0,1,0,20.1491,96.193568,113
+114,Yangon Region,Kyeemyindaing,Yangon West General Hospital,1,1,0,0,1,0,1,1,0,0,0,16.79575,96.12614,114
+115,Bago Region,Waw,Thu Ye Thu Mein Station Hospital,1,1,0,1,0,0,1,0,0,1,0,17.67334,96.89824,115
+116,Sagaing Region,Ye-U,Ye-U Township Hospital,1,1,0,1,0,0,1,0,0,1,0,22.756749,95.429292,116
+117,Sagaing Region,Yinmarbin,Yinmarbin Township Hospital,2,2,0,2,0,0,2,0,0,2,0,22.077761,94.898461,117
+118,Kachin State,Waingmaw,Waingmaw Township Hospital,1,1,0,1,0,0,1,0,0,1,0,25.347575,97.434282,118
