@@ -44,7 +44,7 @@ def append_current_csv(html_filename):
     summary, township = filter_data(html_filename)
     # Summary
     previous_data = pd.read_csv(
-        "./myanmar-covid19-data/MOHS_Dashboard_Data/MOHS Dashboard Data-Summary.csv")
+        "./MOHS-Dashboard-Data-Summary.csv")
 
     # replace data if today existed in the file
     today_format = today.strftime("%d-%m-%Y")
@@ -75,7 +75,7 @@ def append_current_csv(html_filename):
     # for Township
     today_township_data = pd.DataFrame(columns=['SR','Township','Case'])
     today_township_data = today_township_data.append(township,ignore_index=True)
-    today_township_data.to_csv("./MOHS Dashboard Data.csv", index=False)
+    today_township_data.to_csv("./MOHS-Dashboard-Data"+today_str+".csv", index=False)
 
 def clear_up(filename):
     """Delete the processed file>"""
