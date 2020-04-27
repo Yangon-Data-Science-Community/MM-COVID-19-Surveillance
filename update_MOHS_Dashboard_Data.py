@@ -3,7 +3,8 @@ from datetime import date
 import pandas as pd
 import csv
 import os.path
-from get_source_html import get_source
+from get_source_html import get_source_mohs
+from utils import *
 
 today = date.today()
 today_str = today.strftime("%Y%m%d")
@@ -39,6 +40,7 @@ def filter_data(filename):
                             township.append(obj)
     return summary, township
 
+
 def append_current_csv(html_filename):
     """Updated the current csv summary data after scraping."""
     summary, township = filter_data(html_filename)
@@ -73,24 +75,24 @@ def append_current_csv(html_filename):
         "./MOHS-Dashboard-Data-Summary.csv", index=False)
 
     # for Township
-    today_township_data = pd.DataFrame(columns=['SR','Township','Case'])
-    today_township_data = today_township_data.append(township,ignore_index=True)
-    today_township_data.to_csv("./MOHS-Dashboard-Data"+today_str+".csv", index=False)
-
-def clear_up(filename):
-    """Delete the processed file>"""
-    os.remove(filename)
+    today_township_data = pd.DataFrame(columns=['SR', 'Township', 'Case'])
+    today_township_data = today_township_data.append(
+        township, ignore_index=True)
+    today_township_data.to_csv(
+        "./MOHS-Dashboard-Data"+today_str+".csv", index=False)
 
 
 # Main application
 if __name__ == "__main__":
-    html_filename = "source_html_"+today_str+".html"
-    if os.path.isfile(html_filename):
-        append_current_csv(html_filename)
-        clear_up(html_filename)
-    else:
-        if(get_source()):
-            append_current_csv(html_filename)
-            clear_up(html_filename)
-        else:
-            print("Data Source is not ready to be processed.")
+    # step 1: process the data
+    html_filename = "source_html_mohs_"+today_str+".html"
+    if os.path.isfile(html_filename) is False:
+        print(today_str, " Data Source fetching..")
+        get_source_mohs()
+    append_current_csv(html_filename)
+
+    # step 2: left with insert data to the db
+
+    # step 3: clean up process
+    if clear_up(html_filename):
+        print("Data source successfully updated.")
