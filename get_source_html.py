@@ -21,7 +21,7 @@ def get_source():
     timeout = 60
     try:
         WebDriverWait(driver, timeout).until(
-            EC.visibility_of_element_located((By.XPATH, "//*[@id='mmr_adm1_polbnda2_250k_mimu_shapefile_1055_0_layer']")))
+            EC.visibility_of_element_located((By.XPATH, "//*[@id='CaseCount_With_Cases_150420_4042_layer']")))
     except TimeoutException:
         print('Timed out waiting for page to load')
         driver.quit()
