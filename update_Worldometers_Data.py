@@ -23,7 +23,7 @@ def filter_data(filename):
     gdp_table = soup.find("table", attrs={"id": "main_table_countries_today"})
     gdp_table_thead = gdp_table.thead.find_all("th")
     # Get all the headings of Lists
-    headings = []
+    headings = ["Date"]
     for td in gdp_table_thead:
         # remove any newlines and extra spaces from left and right
         value = td.text.replace('\n', '').strip().lower()
@@ -59,7 +59,7 @@ def filter_data(filename):
     gdp_table_tbody = gdp_table.tbody.find_all("tr")
     final_data = []
     for each in gdp_table_tbody:
-        data_values = []
+        data_values = [today_format]
         for i, td in enumerate(each.find_all("td")):
             td_value = td.text.replace("+", "")
             td_value = td_value.replace("-", "")
@@ -77,6 +77,7 @@ def filter_data(filename):
 
     # Step 4: Export the data to csv
     final_data_pd = pd.DataFrame(final_data)
+    final_data_pd.to_csv("test.csv", index=False)
     return final_data_pd
 
 
@@ -88,6 +89,7 @@ if __name__ == "__main__":
         print(today_str, " Data Source fetching..")
         get_source_worldometers()
 
+    filter_data(html_filename)
 
     # step 2: left with insert data to the db
 
