@@ -2,5 +2,4 @@ PyMySQL
 SQLAlchemy
 beautifulsoup4
 pandas
-csv
 selenium
