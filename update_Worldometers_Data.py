@@ -1,6 +1,6 @@
 # importing the libraries
 from bs4 import BeautifulSoup
-from datetime import date
+from datetime import date, datetime
 import pandas as pd
 from get_source_html import get_source_worldometers
 from utils import *
@@ -8,7 +8,7 @@ from utils import *
 today = date.today()
 today_str = today.strftime("%Y%m%d")
 today_format = today.strftime("%d-%m-%Y")
-
+timestamp = int(datetime.now().timestamp()*1000)
 
 def filter_data(filename):
     html_content = open(filename, "r")
@@ -55,7 +55,7 @@ def filter_data(filename):
             headings.append("Proviance_Code")
         else:
             print(value)
-
+    headings.append("System_Date")
     gdp_table_tbody = gdp_table.tbody.find_all("tr")
     final_data = []
     for each in gdp_table_tbody:
@@ -72,12 +72,12 @@ def filter_data(filename):
             except:
                 pass
             data_values.append(td_value)
+        data_values.append(timestamp)
         data_dict = dict(zip(headings, data_values))
         final_data.append(data_dict)
 
     # Step 4: Export the data to csv
     final_data_pd = pd.DataFrame(final_data)
-    final_data_pd.to_csv("test.csv", index=False)
     return final_data_pd
 
 
@@ -89,10 +89,14 @@ if __name__ == "__main__":
         print(today_str, " Data Source fetching..")
         get_source_worldometers()
 
-    filter_data(html_filename)
 
     # step 2: left with insert data to the db
+    data_to_store = filter_data(html_filename)
+    engine = db_engine()
+    data_to_store.to_sql('Worldometer_Dashboard_Detail', con = engine, if_exists = 'append', chunksize = 1000, index=False)
 
     # step 3: clean up process
     if clear_up(html_filename):
         print("Data source successfully updated.")
+        if db_engine_close(engine):
+            print("db connection closed.")
