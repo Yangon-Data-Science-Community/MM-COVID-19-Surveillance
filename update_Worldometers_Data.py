@@ -23,7 +23,7 @@ def filter_data(filename):
     gdp_table = soup.find("table", attrs={"id": "main_table_countries_today"})
     gdp_table_thead = gdp_table.thead.find_all("th")
     # Get all the headings of Lists
-    headings = ["Date"]
+    headings = ["Date","No"]
     for td in gdp_table_thead:
         # remove any newlines and extra spaces from left and right
         value = td.text.replace('\n', '').strip().lower()
@@ -53,6 +53,8 @@ def filter_data(filename):
             headings.append("Test_1M pop")
         elif("continent") in value:
             headings.append("Proviance_Code")
+        elif("population") in value:
+            headings.append("Population")
         else:
             print(value)
     headings.append("System_Date")
@@ -78,6 +80,7 @@ def filter_data(filename):
 
     # Step 4: Export the data to csv
     final_data_pd = pd.DataFrame(final_data)
+    final_data_pd = final_data_pd.drop('No', 1)
     return final_data_pd
 
 
